@@ -1,0 +1,14 @@
+
+# HTID:17550570: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:17550570:
+
+Options FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^home$ index.html [L]
+RewriteRule ^nosotros$ pages/nosotros.html [L]
+RewriteRule ^tienda$ pages/tienda.html [L]
+RewriteRule ^tips$ pages/tips.html [L]
+RewriteRule ^contacto$ pages/contacto.html [L]
+RewriteRule ^error$ pages/error.html [L]
