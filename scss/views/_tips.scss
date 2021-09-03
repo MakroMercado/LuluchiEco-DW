@@ -1,0 +1,90 @@
+#containerTips{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: $rosa;
+}
+
+.menuTips{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    .tip{
+        background-color: $rosaO;
+        width: 100%;
+        margin-bottom: 2%;
+        a{
+            text-decoration: none;
+        }
+        img{
+            width: 75px;
+            border: 5px solid white;
+            border-radius: 50%;
+        }
+        h5{
+            display: inline;
+            font-family: 'Dancing Script', cursive;
+            font-size: 26px;
+            color:black;
+        }
+    }
+    .der{
+        text-align: right;
+        background-color: $verde;
+    }
+}
+
+.containerTip{
+    padding: 80px 5%;
+    padding-bottom: 0;
+    h2{
+        font-family: 'Londrina Solid', cursive;
+        border-top: 1px solid black;
+        font-size: 28px;
+        padding-bottom: 5px;
+        border-bottom: 4px solid $verde;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        
+        font-weight: bold;
+        padding-top: 15px;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    img{
+        border: 3px solid $verde;
+    }
+    ul, ol{
+        list-style-position: inside;
+        padding: 0 1rem;
+        li{
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media all and (min-width: 706px){
+    .menuTips{
+        padding: 0;
+        .tip{
+            width: 45%;
+            margin: 2%;
+        }
+        
+    }
+}
+
+@media all and (min-width: 1180px){
+    .menuTips{
+        padding: 0 10px;
+        .tip{
+            width: 22%;
+            margin: 10px;
+        }
+    }
+}
